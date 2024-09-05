@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, Depends, Query
 from sqlalchemy.orm import Session
-from db_connection import SessionLocal, PuntoDonacion
+from old.db_connection import SessionLocal, PuntoDonacion
 from geopy.distance import geodesic
 from pydantic import BaseModel
 from typing import List, Optional

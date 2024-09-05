@@ -25,3 +25,8 @@ services:
       interval: 20s
       timeout: 10s
       retries: 5
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
